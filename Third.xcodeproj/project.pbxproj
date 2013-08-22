@@ -23,6 +23,7 @@
 		C320277417C4A20F00DB6B18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C320274F17C4A20F00DB6B18 /* Foundation.framework */; };
 		C320277C17C4A20F00DB6B18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C320277A17C4A20F00DB6B18 /* InfoPlist.strings */; };
 		C320277F17C4A20F00DB6B18 /* ThirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C320277E17C4A20F00DB6B18 /* ThirdTests.m */; };
+		C387A23B17C50A3500D488DD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C387A23A17C50A3500D488DD /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		C320277B17C4A20F00DB6B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C320277D17C4A20F00DB6B18 /* ThirdTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdTests.h; sourceTree = "<group>"; };
 		C320277E17C4A20F00DB6B18 /* ThirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdTests.m; sourceTree = "<group>"; };
+		C387A23A17C50A3500D488DD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		C320275317C4A20F00DB6B18 /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				C387A23A17C50A3500D488DD /* Settings.bundle */,
 				C320275C17C4A20F00DB6B18 /* AppDelegate.h */,
 				C320275D17C4A20F00DB6B18 /* AppDelegate.m */,
 				C320276517C4A20F00DB6B18 /* MainStoryboard.storyboard */,
@@ -236,6 +239,7 @@
 				C320276217C4A20F00DB6B18 /* Default@2x.png in Resources */,
 				C320276417C4A20F00DB6B18 /* Default-568h@2x.png in Resources */,
 				C320276717C4A20F00DB6B18 /* MainStoryboard.storyboard in Resources */,
+				C387A23B17C50A3500D488DD /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +457,7 @@
 				C320278417C4A20F00DB6B18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C320278517C4A20F00DB6B18 /* Build configuration list for PBXNativeTarget "ThirdTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +466,7 @@
 				C320278717C4A20F00DB6B18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
